@@ -1,0 +1,52 @@
+konsep :
+1. Object Oriented Programming
+2. Procedural Programming
+
+basic php:
+1. inline php, external php, internal php
+2. tag php
+3. function dasar php (echo, print, dll)
+4. error reporting
+5. try catch
+6. nested if
+7. php variable & syntax 
+8. php loop
+9. php array
+10. form php
+
+advance :
+1. manggil database via php
+2. operasi insert, create, delete, update php
+3. php session (contoh : login)
+4. include file php
+5. php timestamp, generate tanggal
+6. upload file php
+7. buat objek php
+8. manggil objek php melalui instansi
+9. php getter/setter (getString, setString)
+
+front-end php :
+1. ajax php
+2. xml parsing php (json)
+
+framework :
+1. codeigniter
+2. Laravel
+3. yii
+
+-------------------------------------------------------------------------------
+Latihan :
+1. buat fungsi php yang nampilin text 'halo' pake variabel
+2. buat file index.php & fungsi.php
+index.php manggil fungsi nampilin text 'halo' dari fungsi yang ada di file fungsi.php
+3. buat php form dengan 3 textbox yang actionnya mengarah ke redirect.php dengan persyaratan :
+	- jika salah satu dari textbox kosong print gagal, jika terisi print sukses
+4. membuat objek mobil dengan atribut warna, nama, serta harga serta getter dan setternya
+5. memanggil objek instansi mobil dengan mendefinisikan atribut menggunakan setter dan menampilkan menggunakan echo/print dengan getter
+6. membuat php form login dengan session serta logout
+7. membuat php form dimana kita mengisi dengan angka, jika diproses akan menampilkan kata "loop ke : n" dimana n = variable angka yang diisi pada form sebelumnya
+8. membuat php form jika kita mengisi selain angka akan menampilkan hasil 'tolong masukan angka saja' menggunakan try catch
+9. menampilkan isi database dari mysql ke dalam table di php
+10. membuat salah satu contoh ajax pada php
+11. membuat crud menggunakan grocery crud dengan codeigniter
+12. menampilkan json dari suatu database menggunakan laravel
